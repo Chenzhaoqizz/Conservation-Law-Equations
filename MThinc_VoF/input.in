@@ -1,0 +1,10 @@
+# Nx, Ny
+257 257
+# CFL number 
+0.25 
+# start_time, end_time, delta_t 
+0.0 10.01 1.0E-4
+# save results after n steps
+100 
+# choose problem  1=Shear flow test, 2=Zaleski rotation of a disk 3=xxx 
+1 

@@ -1,0 +1,21 @@
+# Nx, Ny 
+257 257
+# cfl number, epsilon, MaxIter
+0.2 2.0E-6 10000
+# xLeft, xRight, yBottom, yTop
+0.0 1.0 0.0 1.0 
+# start_time, end_time, delta_t
+0.0 100.01 0.000125
+# uTop, Reynold number
+1.0, 1000.0
+# save results after n steps
+6400 
+# choose mesh  1=uniform 2=tanh 3=sin
+1
+# choose iteration method to solve possion equation  1=SOR 2=SIP 3=BiCGStab
+1
+# choose splitting 1=ausm 2=character 3=character-semi 4 = LLF 5= GLF 6 = sw, 7 = HLLC, 8 = TOT
+8
+# choose problem  1=Sod 2=Shu-Osher 3=Lax 4=Blast 5=contact 6=entropy
+1
+
